@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "preinstall": "npm i -g babel-loader",
     "start": "webpack-dev-server"
   },
   "author": "",
