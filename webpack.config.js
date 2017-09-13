@@ -9,12 +9,6 @@ module.exports = {
     inline: true,
     contentBase: './dist',
   },
-  resolve: {
-    fallback: '/usr/local/lib/node_modules'
-  },
-  resolveLoader: {
-      fallback: '/usr/local/lib/node_modules'
-  },
   module: {
     loaders: [
       {
